@@ -12,7 +12,7 @@
       <div class="container">
         <div class="header-position">
           <a href="" class="menu-logo">
-            <img src="img/logo_header.svg" alt="" />
+            <img class="header-logo" src="img/logo_header.svg" alt="" />
           </a>
           <nav>
             <ul class="navigations">
@@ -24,7 +24,9 @@
           </nav>
           <div class="search_form">
             <div class="search_form__loupe">
-              <img src="img/loupe.svg" alt="loupe" />
+              <a href="#">
+                <img src="img/loupe.svg" alt="loupe" />
+              </a>
             </div>
             <div class="search_form__input">
               <input type="text" placeholder="" />
@@ -53,8 +55,8 @@
                 Nunc eros elementum.
               </div>
               <a href="/" class="port-container__info-button button"
-                >о компании</a
-              >
+                >о компании
+              </a>
             </div>
             <ul class="services">
               <li class="services__cart">
@@ -148,9 +150,9 @@
       </div>
       <div class="bottom">
         <div class="container">
+          <h1 class="about__title">О компании</h1>
           <section class="about">
             <div class="about__info-wrapper">
-              <h1 class="about__title">О компании</h1>
               <div class="about__description">
                 <span class="about__info"
                   >Tristique orci consectetur sit felis. Sed ac auctor tellus
@@ -203,24 +205,24 @@
                   </li>
                 </ul>
               </div>
-            </div>
-            <div class="about__video-wrapper">
-              <div class="about__video-container">
-                <video
-                  src=""
-                  class="about__video"
-                  poster="./img/videoimage.jpg"
-                ></video>
-                <button class="about__video-button" type="button"></button>
-              </div>
-              <div class="about__video-cart">
-                <div class="about__video-cart-name">
-                  Запрос ставки и условий погрузочно-разгрузочных работ
+              <div class="about__video-wrapper">
+                <div class="about__video-container">
+                  <video
+                    src=""
+                    class="about__video"
+                    poster="./img/videoimage.jpg"
+                  ></video>
+                  <button class="about__video-button" type="button"></button>
                 </div>
-                <a href="/" class="about__video-cart-link"
-                  >Рассчитайте моментально стоимость полных портовых услуг в
-                  порту VISMA</a
-                >
+                <div class="about__video-cart">
+                  <div class="about__video-cart-name">
+                    Запрос ставки и условий погрузочно-разгрузочных работ
+                  </div>
+                  <a href="/" class="about__video-cart-link"
+                    >Рассчитайте моментально стоимость полных портовых услуг в
+                    порту VISMA</a
+                  >
+                </div>
               </div>
             </div>
           </section>
@@ -237,11 +239,7 @@
           <ul class="news__card-list">
             <li class="news__card">
               <div class="news__card-img-wrapper">
-                <img
-                  src="./img/nfirst.jpg"
-                  alt="/"
-                  class="news__card-image"
-                />
+                <img src="./img/nfirst.jpg" alt="/" class="news__card-image" />
               </div>
               <div class="news__card-description-wrapper">
                 <span class="news__card-date">20/05/22</span>
@@ -257,11 +255,7 @@
             </li>
             <li class="news__card">
               <div class="news__card-img-wrapper">
-                <img
-                  src="./img/nsecond.jpg"
-                  alt="/"
-                  class="news__card-image"
-                />
+                <img src="./img/nsecond.jpg" alt="/" class="news__card-image" />
               </div>
               <div class="news__card-description-wrapper">
                 <span class="news__card-date">20/02/22</span>
@@ -278,11 +272,7 @@
             </li>
             <li class="news__card">
               <div class="news__card-img-wrapper">
-                <img
-                  src="./img/nthird.jpg"
-                  alt="/"
-                  class="news__card-image"
-                />
+                <img src="./img/nthird.jpg" alt="/" class="news__card-image" />
               </div>
               <div class="news__card-description-wrapper">
                 <span class="news__card-date">30/12/21</span>
@@ -299,11 +289,7 @@
             </li>
             <li class="news__card">
               <div class="news__card-img-wrapper">
-                <img
-                  src="./img/nfourth.jpg"
-                  alt="/"
-                  class="news__card-image"
-                />
+                <img src="./img/nfourth.jpg" alt="/" class="news__card-image" />
               </div>
               <div class="news__card-description-wrapper">
                 <span class="news__card-date">29/06/21</span>
@@ -322,99 +308,108 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__contacts-wrapper">
-            <span class="footer__contacts-location">123456, г. Тавима, ул. Морская, д. 21</span>
-            <a href="/" class="logo">
-              <img src="img/logo_footer.svg" alt="#">
+          <span class="footer__contacts-location"
+            >123456, г. Тавима, ул. Морская, д. 21</span
+          >
+          <a href="/" class="logo">
+            <img src="img/logo_footer.svg" alt="#" />
+          </a>
+          <div class="footer__destination-wrapper">
+            <a href="tel+71234566789" class="footer__phone">
+              <img src="img/phone.svg" alt="/">+7(123) 456-67-89
             </a>
-            <div class="footer__destination-wrapper">
-                <span class="footer__number">+7 (123) 456-67-89</span>
-                <span class="footer__mail">order@visma.ru</span>
-            </div>
+            <a href="order@visma.ru" class="footer__email">
+              <img src="img/mail.svg" alt="/">order@visma.ru
+            </a>
+          </div>
         </div>
       </div>
-    <div class="footer_container">
-      <div class="container">
-        <div class="footer_lists-wrapper">
+      <div class="footer_container">
+        <div class="container">
+          <div class="footer_lists-wrapper">
             <ul class="footer__list">
-                <li class="footer__item-title">информация о юр. лице</li>
-                <li class="footer__item">
-                    <a href="/" class="footer__link">ОГРН 11111111111111111</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">ИНН 2222222222222</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">КПП 3333333333333</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">ОКПО 44444444444 ОКВЭД 52.24</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">ОКТМО 5555555555555</a> 
-                </li>
+              <li class="footer__item-title">информация о юр. лице</li>
+              <li class="footer__item">
+                <a href="/" class="footer__link">ОГРН 11111111111111111</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">ИНН 2222222222222</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">КПП 3333333333333</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link"
+                  >ОКПО 44444444444 ОКВЭД 52.24</a
+                >
+              </li>
+              <li>
+                <a href="/" class="footer__link">ОКТМО 5555555555555</a>
+              </li>
             </ul>
 
             <ul class="footer__list">
-                <li class="footer__item-title">Закупки</li>
-                <li class="footer__item">
-                    <a href="/" class="footer__link">Нормативные документы</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Закупки на VISMA Order</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Закупки на VISMA Tender</a> 
-                </li>
+              <li class="footer__item-title">Закупки</li>
+              <li class="footer__item">
+                <a href="/" class="footer__link">Нормативные документы</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">Закупки на VISMA Order</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">Закупки на VISMA Tender</a>
+              </li>
             </ul>
-            
+
             <ul class="footer__list">
-                <li class="footer__item-title">акционерам</li>
-                <li class="footer__item">
-                    <a href="/" class="footer__link">Устав VISMA</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Свидетельства госрегистрации</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Список аффилированных лиц</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Информация</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Отчеты</a> 
-                </li>
+              <li class="footer__item-title">акционерам</li>
+              <li class="footer__item">
+                <a href="/" class="footer__link">Устав VISMA</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link"
+                  >Свидетельства госрегистрации</a
+                >
+              </li>
+              <li>
+                <a href="/" class="footer__link">Список аффилированных лиц</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">Информация</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">Отчеты</a>
+              </li>
             </ul>
-            
+
             <ul class="footer__list">
-                <li class="footer__item-title">о компании</li>
-                <li class="footer__item">
-                    <a href="/" class="footer__link">Порт сегодня</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Характеристики порта</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">История</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Дипломы и награды</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Транспортная безопасность</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Экология</a> 
-                </li>
-                <li>
-                    <a href="/" class="footer__link">Правовая информация</a> 
-                </li>
+              <li class="footer__item-title">о компании</li>
+              <li class="footer__item">
+                <a href="/" class="footer__link">Порт сегодня</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">Характеристики порта</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">История</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">Дипломы и награды</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">Транспортная безопасность</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">Экология</a>
+              </li>
+              <li>
+                <a href="/" class="footer__link">Правовая информация</a>
+              </li>
             </ul>
+          </div>
         </div>
       </div>
-    </div>
-     <div class="footer__license">все права защищены АО VISMA</div>
+      <div class="footer__license">все права защищены АО VISMA</div>
     </footer>
-
   </body>
 </html>
